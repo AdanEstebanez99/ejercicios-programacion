@@ -37,9 +37,9 @@ javac Ejercicio1.java
 ```
 ## Qué se estudia en programación
 
-* Lenguaje de programación Java
-* Comandos de Linux
-* Git y GitHub
+* Lenguaje de programación Java :coffee:
+* Comandos de Linux :penguin:
+* Git y GitHub :octocat:
 
 ## Bibliografía
 
