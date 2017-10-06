@@ -35,3 +35,14 @@ Para compilar el programa teclea lo siguiente:
 ```console
 javac Ejercicio1.java
 ```
+## Qué se estudia en programación
+
+* Lenguaje de programación Java
+* Comandos de Linux
+* Git y GitHub
+
+## Bibliografía
+
+<img src="imagenes/hero.jpeg" width="240px">
+
+[Aprende Java con Ejercicios] (https://leanpub.com/aprendejava)
