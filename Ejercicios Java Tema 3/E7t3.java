@@ -5,7 +5,7 @@
 
 public class E7t3 { // Clase principal
   public static void main(String[] args) {
-  System.out.println("Por favor introduce el precio de una factura");
+  System.out.println("Por favor introduce el precio de una factura en euros");
   double precio = Integer.parseInt( System.console().readLine());
   
   double siniva = ((double) precio * (double) 0.21);
