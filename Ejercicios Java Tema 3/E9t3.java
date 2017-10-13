@@ -1,5 +1,5 @@
 /**
- *Ejercicio 9 calcular el volumen de un cono
+ *Ejercicio 9: calcular el volumen de un cono
  * @author Adán
  */
 
@@ -11,7 +11,7 @@ public class E9t3 { // Clase principal
   System.out.println("Por favor introduce la altura");
   int altura = Integer.parseInt( System.console().readLine());
   
-  double volumen = ((double) 0.3333333 * (double) 3.14 * (double) radio * (double) radio * (double) altura);
+  double volumen = ((double) 0.3333333 * (double) 3.14159) * ((double) radio * (double) radio) * ((double) altura);
   System.out.println(volumen + " Es el volumen de tu cono");
 
   }

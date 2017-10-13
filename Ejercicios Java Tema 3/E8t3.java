@@ -1,5 +1,5 @@
 /**
- *Ejercicio 8 calcular el salario semanal de un empleado que cobra 12€ la hora.
+ *Ejercicio 8: calcular el salario semanal de un empleado que cobra 12€ la hora.
  * @author Adán
  */
 

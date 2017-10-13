@@ -1,5 +1,5 @@
 /**
- *Ejercicio 10 convertidor de Mb a Kb
+ *Ejercicio 10: convertidor de Mb a Kb
  * @author Adán
  */
 
