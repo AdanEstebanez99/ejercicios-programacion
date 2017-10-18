@@ -45,4 +45,4 @@ javac Ejercicio1.java
 
 <img src="imagenes/hero.jpeg" width="240px">
 
-[Aprende Java con Ejercicios] (https://leanpub.com/aprendejava)
+[Aprende Java con Ejercicios](https://leanpub.com/aprendejava)
