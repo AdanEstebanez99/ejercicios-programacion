@@ -1,5 +1,5 @@
 /**
- * Ejercicio 11: Pide la hora con minutos y te dicen los segundos que te faltas hasta media noche
+ * Ejercicio 11: Pide la hora con minutos y te dice los segundos que faltan hasta media noche
  * 
  * @author Adán
  */
@@ -29,8 +29,7 @@ public class E11t4 { // Clase principal
   }
   if ((difMinutos == 0)) {
   System.out.println((difHoras * 60) + " Son los segundos que quedan hasta medianoche");
-  }
-  
+}
 
   }
 }
