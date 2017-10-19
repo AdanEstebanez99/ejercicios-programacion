@@ -1,6 +1,6 @@
 /**
  * Ejercicio 13: Ordena tres numeros introducidos por teclado
- * // A CORREGIR
+ * 
  * @author Adán
  */
 
@@ -17,35 +17,36 @@ public class E13t4 { // Clase principal
   
   if ((numero1 > numero2) && (numero1 > numero3)) {
     System.out.println(numero1 + " es el mayor");
-    }
-    else if ((numero2 > numero3)) {
+    
+    if ((numero2 > numero3)) {
       System.out.println(numero2 + " es el segundo mayor y " + numero3 + " es el menor");
     }
-    else if ((numero3 > numero2)) {
+    if ((numero3 > numero2))  {
       System.out.println(numero3 + " es el segundo mayor y " + numero2 + " es el menor");
+    }
     }
     
   if ((numero2 > numero1) && (numero2 > numero3)) {
     System.out.println(numero2 + " es el mayor");
-    }
-    else if ((numero1 > numero3)) {
+    
+    if ((numero1 > numero3)) {
       System.out.println(numero1 + " es el segundo mayor y " + numero3 + " es el menor");
     }
-    else if ((numero3 > numero1)) {
+    if ((numero3 > numero1)) {
       System.out.println(numero3 + " es el segundo mayor y " + numero1 + " es el menor");
     }
+  }
     
   if ((numero3 > numero2) && (numero3 > numero1)) {
     System.out.println(numero3 + " es el mayor");
-    }
-    else if ((numero2 > numero1)) {
+    
+    if ((numero2 > numero1)) {
       System.out.println(numero2 + " es el segundo mayor y " + numero1 + " es el menor");
     }
-    else if ((numero1 > numero2)) {
+    if ((numero1 > numero2)) {
       System.out.println(numero1 + " es el segundo mayor y " + numero2 + " es el menor");
-    
     }
-    
+  }
   
   
   
