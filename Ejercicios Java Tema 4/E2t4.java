@@ -15,11 +15,11 @@ public class E2t4 { // Clase principal
   if ((respuesta >= 13) && (respuesta <= 20)) {
     System.out.println("Buenas Tardes");
   }
-  if ((respuesta < 6) || (respuesta > 20) && !(respuesta > 23)) {
+  if ((respuesta < 6) || (respuesta > 20) && !(respuesta > 0)) {
     System.out.println("Buenas Noches");
-  }else {
-  System.out.println("El numero introducido no es valido");
-  System.out.println("Por Favor introduce un numero entre 0 y 23");
+  }
+  if ((respuesta < 0) && (respuesta > 23)) {
+    System.out.println("El número introducido no es valido");
   }
   }
 }

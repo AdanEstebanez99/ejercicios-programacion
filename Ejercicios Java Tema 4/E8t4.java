@@ -32,11 +32,9 @@ public class E8t4 { // Clase principal
   }
   if ((media >= 9) && (media <= 10)) {
     System.out.println("¡Sigue asi!, tu nota es un sobresaliente");
-  } else { 
-    System.out.println("Quizas una de las notas que hayas introducido sea mayor que 10");
-    System.out.println("Por favor revisalo de nuevo");
+  } 
+  if ((media >= 11) || (media < 0)) {
+    System.out.println("Tu media es incorrecta, por favor revisa los numeros introducidos");
   }
-  
-
   }
 }

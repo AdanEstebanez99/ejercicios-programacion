@@ -29,8 +29,10 @@ public class E3t4 { // Clase principal
   }
   if ((respuesta == 7)) {
     System.out.println("Domingo");
-  }else {
-  System.out.println("Introduce un Número del 1 al 7");
+  }
+  if ((respuesta > 7)) {
+    System.out.println("Introduce un Numero entre 1 y 7");
+  
   }
   }
 }

@@ -18,6 +18,16 @@ public class E7t4 { // Clase principal
   double media = ((nota1 + nota2 + nota3) / 3);
   System.out.println(media + " Es la nota media de tus tres examenes");
   
+  if ((nota1 < 0) || (nota1 > 10)) {
+    System.out.println("Tu nota 1 es incorrecta, debe ser un numero entre 0 y 10");
+  }
+  if ((nota2 < 0) || (nota2 > 10)) {
+    System.out.println("Tu nota 2 es incorrecta, debe ser un numero entre 0 y 10");
+  }
+  if ((nota3 < 0) || (nota3 > 10)) {
+    System.out.println("Tu nota 3 es incorrecta, debe ser un numero entre 0 y 10");
+  }
+  
 
   }
 }
