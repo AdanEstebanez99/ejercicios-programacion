@@ -1,6 +1,5 @@
 /**
- *  Ejercicio 10: Preguntar un mes y te dice el horoscopo.
- * 
+ *  Ejercicio 10: Pregunta tu fecha de nacimiento y te dice tu horoscopo
  * @author Adán
  */
 
