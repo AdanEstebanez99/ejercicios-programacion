@@ -9,12 +9,12 @@ public class E10t4 { // Clase principal
   
   String horoscopo = " ";
     
-    System.out.println("Vamos a averiguar tu horoscopo con tu fecha de nacimiento");
+    System.out.println("Introduce tu fecha de nacimiento para averiguar tu horoscopo");
     
-    System.out.print("Introduce el numero del mes de tu nacimiento: ");
+    System.out.print("Introduce el numero del mes en el que naciste: ");
     int mes = Integer.parseInt(System.console().readLine());
     
-    System.out.print("Introduce el dia de nacimiento: ");
+    System.out.print("Introduce el nº del dia que naciste: ");
     int dia = Integer.parseInt(System.console().readLine());
     
     switch(mes) {
