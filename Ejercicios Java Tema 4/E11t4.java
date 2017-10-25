@@ -22,7 +22,7 @@ public class E11t4 { // Clase principal
     int horaConMinuto;
     horaConMinuto = (difHoras - 1);
     int segundosConMinutos;
-    segundosConMinutos = (horaConMinuto * 120);
+    segundosConMinutos = (horaConMinuto * 3600);
     int MinutosSegundos;
     MinutosSegundos = (difMinutos * 60);
     System.out.println((segundosConMinutos + MinutosSegundos) +" Son los segundos que quedan hasta medianoche");
