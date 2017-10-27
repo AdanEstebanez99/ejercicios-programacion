@@ -8,10 +8,10 @@ public class E7T5 { // Clase principal
 public static void main(String[] args) {
   System.out.println("Intenta averiguar el código de mi caja fuerte");
   System.out.println("El codigo tiene 4 DIGITOS y solo tienes 4 INTENTOS");
-  
-  for (int i = 3; i >= 0; i = i - 1) {
+  int solucion = 0;
+  for (int i = 3; (i >= 0) && (solucion != 1999); i = i - 1) {
     System.out.println("Introduce el codigo");
-    int solucion = Integer.parseInt( System.console().readLine());
+    solucion = Integer.parseInt( System.console().readLine());
     System.out.println("Te quedan "+i+" intentos");
      if ((solucion == 1999)) {
        System.out.println("¡Enhorabuena has acertado!");
