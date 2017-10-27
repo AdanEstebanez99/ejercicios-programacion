@@ -6,8 +6,8 @@
 
 public class E4T5 { // Clase principal
 public static void main(String[] args) {
-  for (int i = 320; i >= 1600; i--) {
-    System.out.println(i - 20 +" Es el resultado de 20 - " + i);
+  for (int i = 320; i >= 160; i = i - 20) {
+    System.out.println(i);
   }
   }
 }
