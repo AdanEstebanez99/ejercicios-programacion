@@ -7,15 +7,18 @@
 
 public class E11T5 { // Clase principal
 public static void main(String[] args) {
-  System.out.println("Introduce un numero:");
-  int contador = 0;
   int numero = 0;
-  int suma = 0;
+  int cuadrado = 0;
+  int cubo = 0;
+  System.out.println("Introduce un numero:");
+  numero = Integer.parseInt( System.console().readLine());
+    System.out.println("  Numero    Cuadrado    Cubo  ");
   
   for (int i = 1; i <= 5 ; i = i + 1){
-    numero = Integer.parseInt( System.console().readLine());
     numero ++;
-    System.out.println(numero +"   "+i);
+    cuadrado = (numero * numero);
+    cubo = (numero * numero * numero);
+    System.out.println("    "+numero+"        "+cuadrado+"       "+cubo+"  ");
     
    }
    
