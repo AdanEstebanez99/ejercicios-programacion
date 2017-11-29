@@ -1,5 +1,6 @@
 /**
- * Ejercicio 17: Programa que dibuja una pecera con un pez en su interior.
+ * Ejercicio 17: Programa que pinta una pecera con un pez aleatorio dentro
+ * 
  * 
  * @author Adán
  */
