@@ -11,7 +11,6 @@
     
     for (int i = 0 ; i < numNotas ; i ++){
       int numero = (int)(Math.random()*5);
-      String notas = "a";
       
       switch (numero){
         
