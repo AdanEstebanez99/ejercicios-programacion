@@ -11,12 +11,12 @@
     System.out.println("Voy a decirte 50 numeros entre el -100 y el 200:");
     int numero = 0;
     int pares = 0;
-    int maxPares = 0;
     int impares = 0;
-    int minImpares = 0;
     int suma = 0;
     int numPar = 0;
     int numImpar = 0;
+    int maxPares = numPar;
+    int minImpares = numImpar;
     
     for (int i = 1 ; i <= 50 ; i ++) {
       numero = (int)(Math.random() * 300) - 100;
