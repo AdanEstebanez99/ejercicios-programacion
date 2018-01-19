@@ -5,8 +5,7 @@ Ejercicios de la asignatura **Programación** de **1ºDAW (Desarrollo de Aplicac
 
 A continuación se muestra el programa *"Ejercicio1"* en Java
 
-```
-   java
+```java
 /**
  * Muestra por pantalla la suma, resta, multiplicación y división de 
  * los valores "x" e "y".
