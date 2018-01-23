@@ -10,6 +10,7 @@
   public static void main(String[] args) {
     int[][] num = new int[4][5];
     int fila, columna;
+    int totalColumna = 0;
     
     System.out.println("Introduzca 20 numeros enteros: ");
     
@@ -22,19 +23,35 @@
       }
       System.out.println();
     }
-    
+    int sumaFila;
     for (fila = 0; fila < 4; fila ++) {
-      System.out.print("Fila "+fila+":");
-      int sumaFila = 0;
+      System.out.print("Fila "+fila+":   ");
+      sumaFila = 0;
       
       for (columna = 0; columna < 5; columna ++) {
-        System.out.printf("%5d", num[fila][columna]);
+        System.out.printf("%6d", num[fila][columna]);
         sumaFila += num[fila][columna];
         
       }
-      System.out.print("   ");
+      System.out.print(" | ");
       System.out.print("Sumatorio fila "+fila+" = "+sumaFila);
       System.out.println();
     }
+    
+    int sumaColumna = 0;
+    System.out.println("------------------------------------------");
+    System.out.print("sumatorio:");
+    
+    for (columna = 0; columna < 5; columna ++) {
+      sumaColumna = 0;
+      for (fila = 0; fila < 4; fila ++) {
+        sumaColumna += num[fila][columna];
+      }
+      totalColumna += sumaColumna;
+      System.out.printf("%6d", sumaColumna);
+      }
+      System.out.print(" | ");
+      System.out.print("Suma total: "+totalColumna);
+    
   }
 }
