@@ -7,7 +7,7 @@
 
   public class E23T7 { // Clase principal
   public static void main(String[] args) {
-    int[] numero = new int[60];
+    int[] numero = new int[1000];
     boolean numeroValido = true;
     
     for (int i = 0; i < 1001; i++) {
