@@ -150,4 +150,23 @@
      
      return n = voltea(n);
     }
+    
+  //Trocea un numero:
+  
+    public static int trozoDeNumero(int i, int e, int j) {
+    
+    int x = Funciones.Varias.voltea(i);
+    
+    do {
+     x = x / 10;
+    } while ( x % 10 != e);
+    
+    int x2 = Funciones.Varias.voltea(x);
+    
+    do {
+     x2 = x2 / 10;
+    } while ( x2 % 10 != j);
+   
+    return x2;
+    }
 }
