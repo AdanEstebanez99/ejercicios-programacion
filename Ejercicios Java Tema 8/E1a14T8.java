@@ -138,7 +138,7 @@
            
     System.out.println("Este es tu número con el dígito añadido: " + resultadoPegaDetras);
     
-    //Ejercicio 12: Programa que le añade digitos por detras a un numero.
+    //Ejercicio 12: Programa que le añade digitos por delante a un numero.
     
     System.out.print("Introduce un número largo: ");
     int numeroIntroducido11 = Integer.parseInt(System.console().readLine());
@@ -174,6 +174,17 @@
    
     System.out.println(x2);
     
+    //Ejercicio 14: Programa que pega 2 numeros para formar uno.
+    
+    System.out.print("Introduce un número largo: ");
+    int numeroIntroducido14 = Integer.parseInt(System.console().readLine());
+           
+    System.out.print("Escribe otro numero para pergaselo al anterior introducido: ");
+    int pegarNumeros = Integer.parseInt(System.console().readLine());
+           
+    int resultadoPegaNumero = Funciones.Varias.pegaNumeros(numeroIntroducido14, pegarNumeros);
+           
+    System.out.println("Este es tu número pegado: " + resultadoPegaNumero);
     
     
   }

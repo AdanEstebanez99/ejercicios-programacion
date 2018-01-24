@@ -169,4 +169,25 @@
    
     return x2;
     }
+    
+  //Pega un Numero a otro:
+  
+    public static int pegaNumeros(int n, int x) {
+      
+      int digitos = 1;
+      int nDigitos = x;
+      
+      while(nDigitos > 9) {
+        nDigitos = nDigitos / 10;
+        digitos++;
+      }
+      for (int i = 1; i <= digitos; i++) {
+        n = n*10;
+      }
+      n = n + x;
+    
+      return n;
+    }
+    
+    
 }
