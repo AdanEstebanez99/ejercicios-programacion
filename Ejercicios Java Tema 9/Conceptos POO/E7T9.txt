@@ -1,0 +1,9 @@
+--EJERCICIO 7--Ventana--
+
+Atributos: color, tamaño, titulo, nomAplicacion.
+
+Metodos o Acciones: Cierra, Minimiza, Aumenta, Abre, Alinear, Redimensiona.
+
+
+
+

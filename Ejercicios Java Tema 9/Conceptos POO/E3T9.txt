@@ -1,0 +1,5 @@
+--EJERCICIO 3--Vivienda--
+
+Atributos: metro, numeroVentanas, numeroHabitaciones, direccion, metrosTerraza, tienePiscina, tieneGaraje.
+
+Subclases: Chalet, Piso, Duplex, Atico, Casa Mata.

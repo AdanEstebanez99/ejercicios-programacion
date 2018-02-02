@@ -1,0 +1,5 @@
+--EJERCICIO 1--PilotoDeFormula1--
+
+Atributos: nombre, apellidos, escuderia, peso, altura, nacionalidad, edad, debut, ranking, numeroPuntos.
+
+Objetos: fernandoAlonso, sebastianVettel, lewisHamilton, carlosSainzJr.

@@ -1,0 +1,20 @@
+--EJERCICIO 2--Diferenciar clases y objetos--
+
+Clases:   Mineral          Animal                     Persona
+
+         .pirita.         -caballo:                  .paula.
+                            .rocinante.              .javier.
+                            .bucefalos.
+                            .pegaso.
+         .cuarzo.         -gato:
+                            .garfield.
+                            .tom.
+                            .silvestre.
+                          -perro:
+                            .goofy.
+                            .pluto.
+                            .laika.
+                            .milu.
+                            .snoopy.
+                            .ayudanteDeSantaClaus
+                          .patoLucas.

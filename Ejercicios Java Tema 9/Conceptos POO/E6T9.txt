@@ -1,0 +1,6 @@
+--EJERCICIO 6--Alumno--
+-Nombre si seria atributo por que dice una caracteristica de la clase alumno.
+-Apellidos, estatura, edad, peso, notas
+
+
+

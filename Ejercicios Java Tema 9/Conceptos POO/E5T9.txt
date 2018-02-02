@@ -1,0 +1,6 @@
+--EJERCICIO 5--Caballo--
+
+Atributo: Raza, Color, Peso, Edad.
+
+Acciones: Come, Camina, Relincha, daCoz, ponerHerradura.
+
