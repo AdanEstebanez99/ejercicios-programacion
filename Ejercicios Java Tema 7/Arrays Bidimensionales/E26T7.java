@@ -1,5 +1,6 @@
 /*
- *Ejercicio 25 del tema 7: Ejercicio de la ficha del Alfil del Ajedrez 
+ *Ejercicio 26 del tema 7: Ejercicio de rotar una matriz en el sentido de las 
+ * agujas del reloj
  *
  * @author Adan
  */
