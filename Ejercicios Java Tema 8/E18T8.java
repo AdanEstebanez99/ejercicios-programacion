@@ -1,9 +1,9 @@
 /*
- *Ejercicio 17 del tema 8: Conversor de numeros decimales a numeros binarios.
+ *Ejercicio 18 del tema 8: Conversor de numeros decimales a numeros binarios.
  *
  * @author Adan
  */
-package ejercicio17tema8;
+package ejercicio18tema8;
 
 import java.util.Scanner;
 
