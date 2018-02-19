@@ -7,7 +7,7 @@ package ejercicio19tema8;
 
 import java.util.Scanner;
 
-public class Ejercicio19Tema8 {
+public class E19T8 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
